@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Mega Quiz de Moda Feminina</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h3>👑 Mega Quiz de Moda: Teste 10 Tendências!</h3>
+            <p>Você tem 10 chances para provar que domina o universo fashion. Boa sorte!</p>
+            <button class="btn-proximo" data-proximo="1">Começar o Quiz</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <h4>Pergunta 1/10:</h4>
+            <p>O que significa 'Trench Coat'?</p>
+            <button class="btn-proximo" data-proximo="2" data-correta="sim">Um casaco longo e impermeável, clássico da moda.</button>
+            <button class="btn-proximo" data-proximo="2" data-correta="nao">Uma calça justa de couro.</button>
+            <button class="btn-proximo" data-proximo="2" data-correta="nao">Um tipo de chapéu de feltro.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <h4>Pergunta 2/10:</h4>
+            <p>Qual estampa é caracterizada por xadrez miúdo e irregular, frequentemente usado em ternos e casacos?</p>
+            <button class="btn-proximo" data-proximo="3" data-correta="nao">Poá (bolinhas)</button>
+            <button class="btn-proximo" data-proximo="3" data-correta="sim">Pied-de-Poule (ou Pé de Galinha)</button>
+            <button class="btn-proximo" data-proximo="3" data-correta="nao">Tie-Dye</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <h4>Pergunta 3/10:</h4>
+            <p>O que o termo 'Cropped' se refere em uma peça de roupa?</p>
+            <button class="btn-proximo" data-proximo="4" data-correta="nao">Peças feitas de crochê.</button>
+            <button class="btn-proximo" data-proximo="4" data-correta="nao">Peças com detalhes em renda.</button>
+            <button class="btn-proximo" data-proximo="4" data-correta="sim">Peças mais curtas que revelam a barriga ou a cintura.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <h4>Pergunta 4/10:</h4>
+            <p>Na moda, o que são 'Scarpins'?</p>
+            <button class="btn-proximo" data-proximo="5" data-correta="sim">Sapatos de salto alto e bico fino, clássicos.</button>
+            <button class="btn-proximo" data-proximo="5" data-correta="nao">Um tipo de lenço grande.</button>
+            <button class="btn-proximo" data-proximo="5" data-correta="nao">Saias longas e plissadas.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <h4>Pergunta 5/10:</h4>
+            <p>Qual acessório de cabelo se popularizou nos anos 90 e voltou com força nas últimas temporadas?</p>
+            <button class="btn-proximo" data-proximo="6" data-correta="nao">Perucas volumosas.</button>
+            <button class="btn-proximo" data-proximo="6" data-correta="sim">Scrunchies (elásticos de cabelo revestidos de tecido).</button>
+            <button class="btn-proximo" data-proximo="6" data-correta="nao">Tiaras finas de metal.</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <h4>Pergunta 6/10:</h4>
+            <p>Qual é o objetivo principal do 'Color Blocking'?</p>
+            <button class="btn-proximo" data-proximo="7" data-correta="nao">Usar apenas tons neutros (preto, branco, cinza).</button>
+            <button class="btn-proximo" data-proximo="7" data-correta="sim">Combinar blocos de cores sólidas e contrastantes no mesmo look.</button>
+            <button class="btn-proximo" data-proximo="7" data-correta="nao">Usar roupas com a mesma cor (look monocromático).</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <h4>Pergunta 7/10:</h4>
+            <p>O que são peças 'Oversized'?</p>
+            <button class="btn-proximo" data-proximo="8" data-correta="nao">Roupas com muitos detalhes em pedrarias.</button>
+            <button class="btn-proximo" data-proximo="8" data-correta="sim">Roupas com modelagem ampla, parecendo um ou dois números maiores.</button>
+            <button class="btn-proximo" data-proximo="8" data-correta="nao">Roupas que podem ser usadas de várias formas.</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <h4>Pergunta 8/10:</h4>
+            <p>Qual material está associado ao estilo 'Boho Chic'?</p>
+            <button class="btn-proximo" data-proximo="9" data-correta="sim">Camurça, franjas e tecidos fluidos.</button>
+            <button class="btn-proximo" data-proximo="9" data-correta="nao">Lycra e neoprene.</button>
+            <button class="btn-proximo" data-proximo="9" data-correta="nao">Seda pura e cetim.</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <h4>Pergunta 9/10:</h4>
+            <p>O que caracteriza uma 'Clutch'?</p>
+            <button class="btn-proximo" data-proximo="10" data-correta="nao">Uma bolsa de ombro grande e estruturada.</button>
+            <button class="btn-proximo" data-proximo="10" data-correta="sim">Uma bolsa de mão, geralmente pequena, sem alça.</button>
+            <button class="btn-proximo" data-proximo="10" data-correta="nao">Um cinto largo para a cintura.</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <h4>Pergunta 10/10:</h4>
+            <p>Quem é geralmente creditada por popularizar o 'Tailleur' (terninho feminino) e a 'Little Black Dress' (vestido preto básico)?</p>
+            <button class="btn-proximo" data-proximo="fim" data-correta="nao">Donatella Versace</button>
+            <button class="btn-proximo" data-proximo="fim" data-correta="sim">Coco Chanel</button>
+            <button class="btn-proximo" data-proximo="fim" data-correta="nao">Miuccia Prada</button>
+        </div>
+
+        <div class="passo" id="passo-fim-sucesso">
+            <h3>✨ VOCÊ É A RAINHA DA MODA! ✨</h3>
+            <p>Resultado: <span id="placar-acertos-sucesso">0</span> de 10 acertos. Seu conhecimento é impecável. Você tem um futuro nas passarelas!</p>
+            <button onclick="window.location.reload()">Recomeçar o Quiz</button>
+        </div>
+        
+        <div class="passo" id="passo-fim-erro">
+            <h3>🤔 Que Pena, Mas Ainda Dá Tempo de Aprender!</h3>
+            <p>Resultado: <span id="placar-acertos-erro">0</span> de 10 acertos. Continue acompanhando as tendências e tente novamente!</p>
+            <button onclick="window.location.reload()">Recomeçar o Quiz</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

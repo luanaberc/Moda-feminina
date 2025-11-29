@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    background-color: #A36B84; /* Cor mais "fashion" */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #D36C95; /* Cor de botão */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block; /* Botões um abaixo do outro para melhor leitura */
+    width: 80%;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #E68FA9;
+}
+
+.passo {
+    display: none;
+    padding: 20px;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
